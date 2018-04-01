@@ -1,7 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import axios from "axios";
-import ReactAudioPlayer from 'react-audio-player'
+import Player from './Player.jsx'
+import Filter from './Filter.jsx'
+import Playlist from './Playlist.jsx';
 
 class App extends React.Component {
   constructor(props) {
@@ -10,12 +12,13 @@ class App extends React.Component {
 render() {
   return(
     <div>
-      <h1>'Music Player Time'</h1>
-      <ReactAudioPlayer
-        src="my_audio_file.ogg"
-        autoPlay
-        controls
-      />
+      <h1>Carltonify</h1>
+      <Player />
+      <Player />
+      <Filter />
+      <Playlist />
+      <Playlist />
+      <Playlist />
     </div>
   )
  }
