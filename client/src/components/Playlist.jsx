@@ -1,25 +1,31 @@
 import React from 'react'
 
-class Playlist extends React.Component {
-  render() {
+const Playlist = (props) => {
     return(
       <div style={{display: 'inline-block', width: "25%"}}>
         <img/>
-        <h3>Playlist Name</h3>
+        <h3>Currently Playing</h3>
+        <h2><img src={props.current.albumArt} style={{ height: 150 }}/></h2>
         <ul>
-          <li>
-            Song 1
-          </li>
-          <li>
-            Song 2
-          </li>
-          <li>
-            Song 3
-          </li>
+          <li>{props.current.artist}</li>
+          <li>{props.current.track}</li>
+          <li>{props.current.album}</li>
         </ul>
         </div>
     )
-  }
 }
+
+// const Player = (props) => {
+//   return (
+//     <div style={{width: "40%", display: "inline-block"}}>
+//       <h2 style={{color: 'black'}}>Number Text</h2>
+//     <ReactAudioPlayer
+//       src=""
+//       autoPlay
+//       controls
+//     />
+//     </div>
+//   )
+// }
 
 export default Playlist

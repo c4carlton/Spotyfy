@@ -4,8 +4,7 @@
   "description": "hr mvp",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./server/index.js",
-    "react-dev": "webpack -d --watch",
+    "start": "webpack -d --watch | node ./auth-server/authorization_code/app.js | nodemon ./server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,11 +23,12 @@
     "body-parser": "^1.18.2",
     "css-loader": "^0.28.11",
     "nodemon": "^1.17.3",
-    "querystring": "^0.2.0",
+    "query-string": "^6.0.0",
     "react": "^16.3.0",
     "react-audio-player": "^0.9.0",
     "react-dom": "^16.3.0",
-    "soundcloud": "^3.3.0",
+    "request": "^2.85.0",
+    "spotify-web-api-node": "^3.0.0",
     "style-loader": "^0.20.3",
     "webpack": "^2.2.0"
   },
