@@ -17,33 +17,28 @@ Once the project moves into development, the press release can be used as a touc
  -->
 
 ## Heading ##
-  > Name the product in a way the reader (i.e. your target customers) will understand.
-  Music Player
+  > Currently Playing Spotify Music Visualizer
 
 ## Sub-Heading ##
-  > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+  > Helps you know whats playing!
 
 ## Summary ##
-  > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
-  Find your favorite artists
-  Find new artists
-  No ads
+  > Shows you neat stuff!
 
 ## Problem ##
-  > Describe the problem your product solves.
-  One click music streaming
+  > You can see all the things!
 
 ## Solution ##
-  > Describe how your product elegantly solves the problem.
+  > in production: smart playlist suggestions
 
 ## Quote from You ##
-  > A quote from a spokesperson in your company.
+  > ""
 
 ## How to Get Started ##
-  > Describe how easy it is to get started.
+  > npm start
 
 ## Customer Quote ##
-  > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+  > "Wow I had no idea what artist was playing before I saw this!" -Cheryl Fargo, ND
 
 ## Closing and Call to Action ##
-  > Wrap it up and give pointers where the reader should go next.
+  > Stay tuned for smart playlist suggestions!
